@@ -13,5 +13,5 @@ if ($livro->uparLivro($_FILES['arquivo'])) {
 } else {
 	// mensagem de erro;
 }
-header("Location: /empire/doarLivro.php");
+header("Location: ../frontend/doarLivro.php");
 ?>

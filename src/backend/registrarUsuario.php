@@ -14,7 +14,7 @@ if ($senha == $confirmarSenha) {
     $leitor = new Leitor($nome, $endereco, $email, $telefone, $login, md5($senha));
     $biblioteca->adicionarLeitor($leitor);
     Biblioteca::serializar($biblioteca);    
-    header('Location: /empire/login.php');
+    header('Location: ../frontend/login.php');
     return;
 }
-header('Location: /empire/registrar.php');
+header('Location: ../frontend/registrar.php');

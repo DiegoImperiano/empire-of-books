@@ -7,5 +7,5 @@ $l = $biblioteca->getLeitor($biblioteca->getLeitores(), $leitor->getLogin());
 $l->adicionarComentario(new Comentario($_POST['texto']));
 
 Biblioteca::serializar($biblioteca);
-header("Location: /empire/index.php");
+header("Location: ../frontend/index.php");
 ?>

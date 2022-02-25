@@ -1,5 +1,5 @@
 <?php
-require_once('seguranca.php');
+require_once('../backend/seguranca.php');
 ?>
 
 <!DOCTYPE html>
@@ -10,10 +10,9 @@ require_once('seguranca.php');
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Empire Of Books - Doar Livro</title>
-    <link rel="shortcut icon" href="icone/icone.png">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="../../assets/images/icone.png">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
   </head>
-
   <body id="semtabela">
     <!-- Barra de navegação-->
     <div class="body">
@@ -28,7 +27,7 @@ require_once('seguranca.php');
                   <li id="leitores"><a class="title" href="listaDeLeitores.php">Leitores</a></li>
                   <li id="doar"><a class="title" href="doarLivro.php">Doe um Livro</a></li>
                   <li id="sobre"><a class="title" href="sobre.php">Sobre o Empire Of Books</a></li>
-                  <li id="sair"><a class="title" href="sair.php">Sair</a></li>
+                  <li id="sair"><a class="title" href="../backend/sair.php">Sair</a></li>
                 </ul>
               </div>
               <!-- /MENU -->
@@ -41,10 +40,10 @@ require_once('seguranca.php');
         <div class="container table doar">
           <div class="introduction doar">
             <h3 class="logo doar">Faça um upload  </h3>
-            <img src="icone/doarLivro.svg" alt="">
+            <img src="../../assets/images/doarLivro.svg" alt="">
           </div>
           <div class="card-body">
-            <form action="salva_livro.php" method="POST" enctype="multipart/form-data">
+            <form action="../backend/salvaLivro.php" method="POST" enctype="multipart/form-data">
               <fieldset>
               <legend>Informações do livro</legend>
                 <div class="form-group input">

@@ -1,5 +1,5 @@
 <?php
-require_once('seguranca.php');
+require_once('../backend/seguranca.php');
 $b = Biblioteca::desserializar();
 $leitores = [];
 
@@ -19,8 +19,8 @@ if (!isset($_POST['nome']) || isset($_POST['nome']) && $_POST['nome'] == '') {
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Empire Of Books - Leitores</title>
-  <link rel="shortcut icon" href="icone/icone.png">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" href="../../assets/images/icone.png">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 
 <body >
@@ -36,7 +36,7 @@ if (!isset($_POST['nome']) || isset($_POST['nome']) && $_POST['nome'] == '') {
             <li id="leitores"><a class="title" href="listaDeLeitores.php">Leitores</a></li>
             <li id="doar"><a class="title" href="doarLivro.php">Doe um Livro</a></li>
             <li id="sobre"><a class="title" href="sobre.php">Sobre o Empire Of Books</a></li>
-            <li id="sair"><a class="title" href="sair.php">Sair</a></li>
+            <li id="sair"><a class="title" href="../backend/sair.php">Sair</a></li>
           </ul>
         </div>
         <!-- /MENU -->

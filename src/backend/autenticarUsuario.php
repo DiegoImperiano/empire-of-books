@@ -8,7 +8,7 @@ $leitor = Biblioteca::autenticar($login, $senha);
 
 if ($leitor != null) {
     $_SESSION['leitor'] = serialize($leitor);
-    header('Location: /empire/index.php');
+    header('Location: ../frontend/index.php');
     return;
 }
-header('Location: /empire/login.php');
+header('Location: ../frontend/login.php');

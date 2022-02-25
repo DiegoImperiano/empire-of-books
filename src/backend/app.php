@@ -1,5 +1,5 @@
 <?php
-require_once("Biblioteca.php");
+require_once("biblioteca.php");
 
 if (file_exists("biblioteca.data")) {
     // begin desserialização...
