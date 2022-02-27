@@ -22,6 +22,8 @@ if (!isset($_POST['titulo']) || isset($_POST['titulo']) && $_POST['titulo'] == '
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Empire Of Books - Livros</title>
   <link rel="shortcut icon" href="../../ssets/images/icone.png">
+  <!-- Icones das redes sociais -->
+  <link rel="stylesheet" href="../../assets/fonts/style.css" />
   <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 

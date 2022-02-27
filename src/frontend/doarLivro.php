@@ -11,6 +11,8 @@ require_once('../backend/seguranca.php');
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Empire Of Books - Doar Livro</title>
     <link rel="shortcut icon" href="../../assets/images/icone.png">
+    <!-- Icones das redes sociais -->
+    <link rel="stylesheet" href="../../assets/fonts/style.css" />
     <link rel="stylesheet" type="text/css" href="styles/style.css">
   </head>
   <body id="semtabela">
