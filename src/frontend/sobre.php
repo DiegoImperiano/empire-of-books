@@ -15,9 +15,9 @@
   </head>
   <body>
     <div class="body">
-      <header class="header">
+      <header id="header" class="header">
         <nav class="container">
-          <a class="logo" href="index.php">Empire of <span>Books</span>.</a>
+          <a class="logo logo-alt" href="index.php">Empire of <span>Books</span>.</a>
           <!-- MENU -->
           <div class="menu" id="navbarSupportedContent">
             <ul class="grid">
@@ -36,7 +36,7 @@
       </header>
       <div class="divider-1"></div>
 
-      <main>
+      <main id="sobre" class="sobre">
         <div class="sobre">
           <div class= "title">
               <h2 class="logo">Sobre o Empire of <span>Books</span> </h2>
@@ -75,5 +75,12 @@
         </div>
       </footer>
     </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main.js -->
+    <script src="main.js"></script>
   </body>
 </html>

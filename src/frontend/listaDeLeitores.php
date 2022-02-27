@@ -27,10 +27,10 @@ if (!isset($_POST['nome']) || isset($_POST['nome']) && $_POST['nome'] == '') {
 
 <body >
   <div class="body">
-    <header class="header">
+    <header id="header" class="header">
       <nav class="container">
         <a class="logo logo-alt" href="index.php">Empire of <span>Books</span>.</a>
-        <!-- MENU -->
+            <!-- MENU -->
         <div class="menu" id="navbarSupportedContent">
           <ul class="grid">
             <li id="inicio"><a class="title" href="index.php">Inicio</a></li>
@@ -47,7 +47,7 @@ if (!isset($_POST['nome']) || isset($_POST['nome']) && $_POST['nome'] == '') {
       </nav>
     </header>
     <div class="divider-1"></div>
-    <main>
+    <main id="livros" class="livros">
       <div class="container table">
         <div class="pesquisa">
             <h3 class="logo logo-alt">Leitores</h3>
@@ -90,6 +90,13 @@ if (!isset($_POST['nome']) || isset($_POST['nome']) && $_POST['nome'] == '') {
       </div>
     </footer>
   </div>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- scrollreveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- main.js -->
+  <script src="main.js"></script>
 </body>
 
 </html>

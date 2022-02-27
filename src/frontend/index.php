@@ -107,7 +107,7 @@ $b = Biblioteca::desserializar();
       </footer>
     </div>
     
-    <a href="#inicio" class="back-to-top"><i class="icon-arrow-up"></i></a>
+    <!-- <a href="#inicio" class="back-to-top"><i class="icon-arrow-up"></i></a> -->
 
     <!-- swiper -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

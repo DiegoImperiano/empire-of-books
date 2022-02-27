@@ -17,20 +17,6 @@ for (const link of links) {
   })
 }
 
-/* mudar o header da página quando der scroll */
-const header = document.querySelector('#header')
-const navHeight = header.offsetHeight
-
-function changeHeaderWhenScroll() {
-  if (window.scrollY >= navHeight) {
-    // scroll é maior que a altura do header
-    header.classList.add('scroll')
-  } else {
-    // menor que a altura do header
-    header.classList.remove('scroll')
-  }
-}
-
 /* Testimonials carousel slider swiper */
 const swiper = new Swiper('.swiper-container', {
   slidesPerView: 1,
@@ -65,30 +51,3 @@ scrollReveal.reveal(
   `,
   { interval: 100 }
 )
-
-/* Botão voltar para o topo */
-const backToTopButton = document.querySelector('.back-to-top')
-
-function backToTop() {
-  if (window.scrollY >= 560) {
-    backToTopButton.classList.add('show')
-  } else {
-    backToTopButton.classList.remove('show')
-  }
-}
-
-/*  Menu ativo conforme a seção visível na página 
-const main = document.querySelector('main[id]')
-let li = document.querySelector('li[id]')
-let liId = li.id
-const mainId = main.id
-console.log(liId, mainId)
-if (mainId == liId) {
-  document.getElementById(li).classList.add('active')
-} */
-
-/* When Scroll */
-window.addEventListener('scroll', function () {
-  changeHeaderWhenScroll()
-  backToTop()
-})

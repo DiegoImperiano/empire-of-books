@@ -14,7 +14,7 @@ require_once('../backend/anonimo.php');
 </head>
 
 <body>   
-    <div class=body>
+    <div class="body login">
         <header>
             <img src="../../assets/images/img.svg" alt="">
         </header>

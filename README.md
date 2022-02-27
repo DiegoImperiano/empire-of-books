@@ -12,6 +12,7 @@
 - Uma aplicação com 5 paginas onde é possivel upar um livro (PDF), baixar os livros já
   existentes e deixar comentários. Também é preciso fazer um cadastro para poder acessar a aplicação;
 - Projeto das disciplinas de POO e Autoria Web de 2019;
+- Acesse o [Doc. de requisitos](https://github.com/DiegoImperiano/empire-of-books/blob/main/LICENSE) para mais detalhes técnicos da aplicação.
 
 ### Algumas telas da versão de desktop
 
@@ -25,7 +26,7 @@ _Tela inicial:_
 
   <img src=".github/tela-de-inicio.png" alt="tela de inicio"/>
 
-_Telas de upload de livros:_
+_Tela de upload:_
 
   <img src=".github/tela-de-upload.png" alt="tela de upload"/>
 
