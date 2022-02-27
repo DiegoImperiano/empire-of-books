@@ -4,7 +4,7 @@
   <a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#tecnologias-utilizadas">Tecnologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#como-rodar">Como rodar?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#licença-e-autores">Autore</a>
+  <a href="#licença-e-autores">Licença e autor</a>
 </p>
 
 ## Sobre
@@ -17,21 +17,21 @@
 
 <p align="center">
 
-  _Tela de login:_
+_Tela de login:_
 
   <img src=".github/tela-login.png" alt="tela de login"/>
 
-  _Tela inicial:_
+_Tela inicial:_
 
-  <img src=".github/tela-de-inicio.png"alt="tela de inicio"/>
+  <img src=".github/tela-de-inicio.png" alt="tela de inicio"/>
 
-  _Telas de upload de livros:_
+_Telas de upload de livros:_
 
   <img src=".github/tela-de-upload.png" alt="tela de upload"/>
 
-  _Footer:_
+_Footer:_
 
-  <img src=".github/footer.png" alt="tela de upload"/>
+  <img src=".github/footer.png" alt="footer"/>
 
 </p>
 
@@ -65,7 +65,8 @@ Algumas ideias para melhorar a aplicação:
 
 - Sinta-se livre para sugerir novas melhorias e correções [criando uma issue](https://github.com/DiegoImperiano/empire-of-books/issues/new) 😉.
 
+## Licença e autor
 
-## Licença e Autores
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/DiegoImperiano/empire-of-books/blob/main/LICENSE) para mais detalhes.
 
 [![Linkedin Badge](https://img.shields.io/badge/-Diego_Imperiano-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/diegoimperiano/)](https://www.linkedin.com/in/diegoimperiano/)
