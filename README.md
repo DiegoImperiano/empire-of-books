@@ -21,19 +21,19 @@ Acesse o [Doc. de requisitos](https://github.com/DiegoImperiano/empire-of-books/
 
 _Tela de login:_
 
-  <img src=".github/tela-login.png" alt="tela de login"/>
+  <img src=".github/login.png" alt="tela de login"/>
 
 _Tela inicial:_
 
-  <img src=".github/tela-de-inicio.png" alt="tela de inicio"/>
+  <img src=".github/inicio.png" alt="tela de inicio"/>
 
 _Tela de upload:_
 
-  <img src=".github/tela-de-upload.png" alt="tela de upload"/>
+  <img src=".github/upload.png" alt="tela de upload"/>
 
-_Footer:_
+_tela de inicio mobile:_
 
-  <img src=".github/footer.png" alt="footer"/>
+  <img src=".github/inicioMobile.png" alt="tela de inicio mobile"/>
 
 </p>
 
