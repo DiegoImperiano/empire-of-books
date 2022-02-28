@@ -13,7 +13,7 @@ Projeto das disciplinas de POO e Autoria Web de 2019 atualizado em fevereiro de 
 
 O Empire of Books é uma aplicação simples com 5 páginas onde o usuário pode upar livros em PDF para que todos da comunidade possam ter acesso a eles, também é possível baixar os livros já existentes na plataforma e dar o seu feedback na seção de comentários. É preciso fazer um cadastro para poder acessar a aplicação com seu login e senha.
 
-Acesse o [Doc. de requisitos](https://github.com/DiegoImperiano/empire-of-books/blob/main/LICENSE) para mais detalhes técnicos da aplicação.
+Acesse o [Doc. de requisitos](https://github.com/DiegoImperiano/empire-of-books/blob/main/DocRequisitos.pdf) para mais detalhes técnicos da aplicação.
 
 ### Algumas telas da versão de desktop
 
