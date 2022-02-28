@@ -9,10 +9,11 @@
 
 ## Sobre
 
-- Uma aplicação com 5 paginas onde é possivel upar um livro (PDF), baixar os livros já
-  existentes e deixar comentários. Também é preciso fazer um cadastro para poder acessar a aplicação;
-- Projeto das disciplinas de POO e Autoria Web de 2019;
-- Acesse o [Doc. de requisitos](https://github.com/DiegoImperiano/empire-of-books/blob/main/LICENSE) para mais detalhes técnicos da aplicação.
+Projeto das disciplinas de POO e Autoria Web de 2019 atualizado em fevereiro de 2022.
+
+O Empire of Books é uma aplicação simples com 5 páginas onde o usuário pode upar livros em PDF para que todos da comunidade possam ter acesso a eles, também é possível baixar os livros já existentes na plataforma e dar o seu feedback na seção de comentários. É preciso fazer um cadastro para poder acessar a aplicação com seu login e senha.
+
+Acesse o [Doc. de requisitos](https://github.com/DiegoImperiano/empire-of-books/blob/main/LICENSE) para mais detalhes técnicos da aplicação.
 
 ### Algumas telas da versão de desktop
 
@@ -64,10 +65,12 @@ Algumas ideias para melhorar a aplicação:
 - Adicionar um tema dark.
 - Adicionar uma seção de feedback para cada livro.
 
-- Sinta-se livre para sugerir novas melhorias e correções [criando uma issue](https://github.com/DiegoImperiano/empire-of-books/issues/new) 😉.
+Sinta-se livre para sugerir novas melhorias e correções [criando uma issue](https://github.com/DiegoImperiano/empire-of-books/issues/new) 😉.
 
 ## Licença e autor
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/DiegoImperiano/empire-of-books/blob/main/LICENSE) para mais detalhes.
+
+Desenvolvido por [Diego Imperiano](https://github.com/DiegoImperiano).
 
 [![Linkedin Badge](https://img.shields.io/badge/-Diego_Imperiano-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/diegoimperiano/)](https://www.linkedin.com/in/diegoimperiano/)
